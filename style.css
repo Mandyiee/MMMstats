@@ -1,0 +1,70 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+   font-family: 'Lato', sans-serif;
+  }
+body {
+  position: relative;
+}
+.cont {
+  width: 90%;
+  height: fit-content;
+  border: 1px solid rgba(10,10,10,.5);
+  margin: 0 auto;
+}
+.con  {
+  height: 80vh;
+  width:98%;
+  margin: 0 auto;
+  overflow-y: scroll;
+ 
+}
+.buttonPosition {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 10px;
+}
+.buttonPosition2 {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 50px;
+  text-align: center;
+  width: 100%;
+}
+.result {
+  position: fixed;
+  background: gray;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  clip-path: circle(0%);
+  transition: .6s linear;
+  color: white;
+}
+.container  {
+  width: 100vw;
+  height: 100vh;
+}
+input {
+  padding: 5px 12px;
+  border: 1px solid rgb(10,10,10);
+  border-radius: 4px;
+  outline: none;
+  transition: .6s;
+  width: 95%;
+  margin: 5px auto;
+  display: block;
+}
+input:hover {
+  border: 2px solid rgb(0,0,0);
+}
+
+@media screen and (min-width: 800px) { .container{ 
+  width: 80vw; 
+  
+} 
+  
+}
